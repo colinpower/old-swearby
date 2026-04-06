@@ -1,0 +1,26 @@
+Notifications
+
+
+// NOTES: 
+    // 1. there are different tokens for production and development, so testing in xcode will not allow noti's to fire (unless you set apns to development)
+    // 2. apnProvider needs to be shut down at the end of each usage
+
+// Need to send notifications for:
+    
+    // 1. New friend request
+    // 2. Friend accepted request
+    
+    // 3. New message in group        // DONE
+    // 4. New post in group           // DONE
+    // 5. New request in group        // DONE
+    // 6. New code in group           // DONE
+    // 7. New product in group        // TODO: NOT YET STARTED... MUST SUPPORT!
+                                // "Kristen DM'd you a product from Sephora"
+                                // "Kristen sent a product from Sephora to JOCK"
+
+    // 7. New comment on your post      // DONE
+    // 8. New comment on your request   // DONE
+    // 9. New reply to your comment     // DONE
+    
+    // 10. Someone liked your comment   // TODO: NOT YET STARTED...
+    // 11. Someone liked your message   // TODO: NOT YET STARTED... 
